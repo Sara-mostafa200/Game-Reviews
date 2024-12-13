@@ -1,5 +1,6 @@
 :root {
   --bg-color: #272b30;
+  /* --bg-color: #ffffff; */
   --nav-color: #3a497b;
   --nav-hover: #0099cc;
   --text-color:#888a8d;
@@ -88,7 +89,20 @@ h5 {
   transition: all 0.5s;
   cursor: pointer;
   height: 350px;
+  border: none !important;
 } 
+
+#cards .card .card-body{
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 5px;
+  border-bottom: none;
+}
+
+.card-footer{
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 5px;
+  border-top: none;
+}
 
 #cards .card:hover{
   transform: scale(1.05);

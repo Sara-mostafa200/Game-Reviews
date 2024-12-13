@@ -12,7 +12,7 @@ export class Display {
     for (let i = 0; i < this.gamesArray.length; i++) {
       cointainer += `
                <div class="col-lg-3 col-md-6 col-12">
-                <div class="card">
+                <div class="card my-5 my-md-0">
                   <div class="card-body">
                   
                  
@@ -32,8 +32,9 @@ export class Display {
                       .slice(0, 11)
                       .join(" ")}
                     </p>
+                   
                   </div>
-                  <div class="card-footer d-flex justify-content-between">
+                   <div class="card-footer d-flex justify-content-between">
                     <span>${this.gamesArray[i].genre}</span>
                     <span> ${this.gamesArray[i].platform}</span>
                   </div>
