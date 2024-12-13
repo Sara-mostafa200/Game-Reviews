@@ -13,7 +13,7 @@ export class Display {
       cointainer += `
                <div class="col-lg-3 col-md-6 col-12">
                 <div class="card my-5 my-md-0">
-                  <div class="card-body">
+                  <div class="card-body ">
                   
                  
                     <img src=${
